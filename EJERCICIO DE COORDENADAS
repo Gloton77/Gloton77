@@ -1,0 +1,27 @@
+x= 0.0
+y= 0.0
+print("\t\tUBICAR PUNTO EN EL PLANO CARTESIANO\n")
+
+x= float(input("por favor ingresar el valor de X\n"))
+y= float(input("por favor ingresar el valor de Y\n"))
+
+if x > 0 and y > 0:
+ print("el punto se encuentra en el primer Cuadrante del Plano Cartesiano")
+
+if x < 0 and y  > 0:
+ print("el punto se encuentra en el segundo Cuadrante del Plano Cartesiano")
+
+if x < 0 and y  < 0:
+ print("el punto se encuentra en el tercer Cuadrante del Plano Cartesiano")
+
+if x > 0 and y  < 0:
+ print("el punto se encuentra en el cuarto Cuadrante del Plano Cartesiano")
+
+if x==0 and y== 0:
+  print("el punto se encuentre en el origen del plano cartesiano")
+
+if x == 0 or y == 0: 
+  if x != 0 :
+    print("el punto se encuentra en el eje X")
+  if y != 0 :
+    print("el punto se encuentra en el eje Y")
